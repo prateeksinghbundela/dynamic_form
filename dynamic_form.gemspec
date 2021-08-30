@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.email = 'david@loudthinking.com'
   s.summary = 'Deprecated dynamic form helpers: input, form, error_messages_for, error_messages_on'
 
-  s.add_dependency('rails', '>= 3.0.0')
+  s.add_dependency('rails', '6.1.3')
 
   s.files = Dir['lib/**/*']
   s.require_path = 'lib'
